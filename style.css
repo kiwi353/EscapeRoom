@@ -1,0 +1,12 @@
+.centered {
+    display: inline-block;
+}
+
+.lockImage {
+    width: 20%;
+    height: auto;
+}
+
+body {
+    background-color: lightslategray;
+}

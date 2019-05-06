@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<audio id="bellSound">
+        <source src="./Sounds/tspt_pull_bell_02_065.mp3" >
+</audio>
+<body>
+
+    <div style="text-align: center">
+        <p class="centered" style="top:10%">Ring Bell In Case of Emergency</p>
+    </div>
+    <div style="text-align: center">
+        <img src="./Images/bell.png" class="centered lockImage" style="top:20%" id="lockImage">
+    </div>
+    <div style="text-align: center">
+        <input class="centered" style="top:30%" value="Enter Passcode Here" id="passcode">
+    </div>
+    <div style="text-align: center">
+        <button class="centered" id="passcode" style="top:40%" onclick="checkPasscodeBell();">Enter Passcode</button>
+    </div>
+</body>
