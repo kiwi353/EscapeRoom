@@ -40,7 +40,7 @@ function checkPasscode4() {
 
 function checkPasscodeBell() {
     console.log(document.getElementById("passcode").value);
-    if (document.getElementById("passcode").value == "G67YQT9") {
+    if (document.getElementById("passcode").value == "G67AYQT9") {
         document.getElementById("bellSound").play();
     }
 }
